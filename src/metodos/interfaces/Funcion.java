@@ -1,17 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package metodos.interfaces;
-
 import javax.swing.JOptionPane;
 import jme.Expresion;
 import jme.excepciones.ExpresionException;
 
-/**
- *
- * @author Alex
- */
+
+
+
+
 public class Funcion implements Ifuncion{
     private String definicion = "";
     Expresion expresion;
@@ -27,6 +22,7 @@ public class Funcion implements Ifuncion{
         }
         return false;
     }
+    
     
     
     @Override
